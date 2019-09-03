@@ -8,7 +8,7 @@ Icepack modules used by these are included in the SIS2 source unmodified from
 their Icepack 1.0 versions.  ```icepack_mechred.F90``` is used without modification 
 to implement ridging in SIS2.  Changes needed for SIS2 to use 
 ```icepack_therm_mushy.F90``` are documented below.  SIS2 currently uses the 
-Briegleb/Light delta-Eddington code (ice_shortwave_dEdd.F90) copied from an 
+Briegleb/Light delta-Eddington code (in ``ice_shortwave_dEdd.F90``) copied from an 
 earlier CICE version rather than the Icepack file, ```icepack_shortwave.F90```, 
 to implement sea ice radiative transfer.
 
